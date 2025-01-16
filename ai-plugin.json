@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "emissions_calculator",
+    "name_for_human": "Emissions Calculator",
+    "description_for_model": "Calculates estimated emissions for ChatGPT queries.",
+    "description_for_human": "Provides the carbon emissions for your ChatGPT usage.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "http://localhost:8000/openapi.json"
+    },
+    "logo_url": "http://localhost:8000/logo.png",
+    "contact_email": "you@example.com",
+    "legal_info_url": "http://localhost:8000/terms"
+  }
+  
